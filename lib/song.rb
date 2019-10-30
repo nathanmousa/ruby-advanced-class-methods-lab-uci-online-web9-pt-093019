@@ -68,5 +68,7 @@ class Song
     song.name = (songName.split(" - ")[1].chomp(".mp3"))
     song.artist_name = (songName.split(" - ")[0])
     @all << song
+    
+    return song
   end
 end
